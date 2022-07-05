@@ -49,6 +49,7 @@ a.btn {
     padding: .8rem 1.5rem;
     color: #fff;
 }
+
 span {
     color: #3de1f7;
 }
@@ -69,5 +70,62 @@ span {
 
 .donateToday_desc h1 {
     font-size: 2.2rem;
+    margin-bottom: 1rem;
 }
+
+.donate_money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate_amount {
+    text-align: center;
+    background: #f9f9f9;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 135px;
+    border-radius: .3em;
+    color: #767676;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.money_amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.money_amount input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .8rem;
+}
+.donateToday_content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.donateToday_desc p {
+    margin: auto;
+    width: 560px;
+    font-size: .9rem;
+    color: #898989;
+}
+.active {
+    border: 2px solid #2AB7CA;
+    color: #2AB7CA;
+    background: #2ab7ca2e;
+}
+
 /* Donate Today Section end */
