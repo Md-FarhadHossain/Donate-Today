@@ -1,0 +1,73 @@
+/* font-family: 'Poppins',sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section */
+#hero {
+    background-image: linear-gradient(358deg, #000000f0, #00000045), url(img/hero-bg.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_content h1 {
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero_container {
+    width: 550px;
+}
+
+.hero_content {
+    text-align: center;
+}
+
+.hero_content p {
+    font-size: .9rem;
+    color: #f9f9f9;
+    margin: 2rem 0;
+}
+
+a.btn {
+    border-radius: .3em;
+    text-decoration: none;
+    background: #2ab7ca;
+    padding: .8rem 1.5rem;
+    color: #fff;
+}
+span {
+    color: #3de1f7;
+}
+
+/* Hero section end */
+
+
+
+/* Donate Today Section */
+.donateToday_container {
+    width: 750px;
+    margin: auto;
+}
+
+.donateToday_desc {
+    text-align: center;
+}
+
+.donateToday_desc h1 {
+    font-size: 2.2rem;
+}
+/* Donate Today Section end */
