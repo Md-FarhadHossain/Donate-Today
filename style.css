@@ -45,7 +45,7 @@ body {
 a.btn {
     border-radius: .3em;
     text-decoration: none;
-    background: #3eb489;
+    background: #0f9967;
     /* #3eb489 */
     padding: .8rem 1.5rem;
     color: #fff;
@@ -114,7 +114,7 @@ span {
 .donateToday_content {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
     padding: 5rem 0;
 }
 
@@ -161,10 +161,11 @@ span {
 .donate_categories {
     display: flex;
     justify-content: space-between;
+    margin: 4rem 0;
 }
 
 .category {
-    width: 320px;
+    width: 285px;
     padding: 2.5rem 1rem;
     border-radius: .3em;
 }
@@ -191,7 +192,7 @@ span {
 .person {
     width: 300px;
     padding: .8rem 1rem;
-    /* background: #ddd; */
+    background: #f9f9f9;
     border-radius: .5em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -233,7 +234,7 @@ span {
 }
 
 .team_left {
-    width: 42%;
+    width: 44%;
     display: flex;
 }
 
@@ -242,6 +243,7 @@ span {
     border-radius: .3em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     object-fit: cover;
+    border: 10px solid #f9f9f9;
 }
 
 .team_right {
@@ -267,6 +269,10 @@ span {
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+
+.team_content {
+    padding: 5rem 0;
 }
 
 /* Team Member Section end */
