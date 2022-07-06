@@ -51,9 +51,6 @@ body {
     color: #fff;
 }
 
-.btn:hover {
-    background: linear-gradient(132deg, #0f9967, #3fc192);
-}
 
 span {
     color: #00ffa4;
