@@ -207,11 +207,13 @@ span {
 }
 
 .person_img img {
-    width: 100%;
-    border-radius: .5em;
+    width: 180px;
+    border-radius: 100%;
     object-fit: cover;
     height: 180px;
     object-position: 0 -33px;
+    border: 9px solid #f9f9f9;
+    box-shadow: 0 0 9px #e0e0e0;
 }
 
 .team_member {
@@ -233,7 +235,7 @@ span {
 }
 
 .person-3>.person_img img {
-    object-position: 0 -70px;
+    object-position: 0 -32px;
 }
 
 .team_membber_details {
@@ -283,7 +285,20 @@ span {
 .team_content {
     padding: 5rem 0;
 }
+.person_img {
+    text-align: center;
+}
 
+.person_desc {
+    text-align: center;
+}
+.person-1>.person_img img {
+    object-position: 0 -10px;
+}
+
+.person-2>.person_img img {
+    object-position: 0 -18px;
+}
 /* Team Member Section end */
 
 
