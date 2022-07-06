@@ -45,7 +45,7 @@ body {
 a.btn {
     border-radius: .3em;
     text-decoration: none;
-    background: #0f9967;
+    background: linear-gradient(132deg, #3fc192, #0f9967);
     /* #3eb489 */
     padding: .8rem 1.5rem;
     color: #fff;
@@ -276,3 +276,63 @@ span {
 }
 
 /* Team Member Section end */
+
+
+
+
+/* Get My Update Section */
+.get_email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    background: #7affbb54;
+    width: 850px;
+    margin: 4rem auto;
+    border-radius: 1em;
+}
+
+.get_email input {
+    border: 1px solid #ddd;
+    outline: none;
+    width: 300px;
+    height: 51px;
+    border-radius: .5em;
+    overflow: hidden;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.subscribe_btn {
+    position: relative;
+    right: 11px;
+    border-radius: 0px .3em .3em 0 !important;
+}
+
+/* Get My Update Section end */
+
+
+/* Footer */
+.footer_content {
+    text-align: center;
+    color: #fff;
+}
+
+.footer_content p {
+    font-size: .9rem;
+    margin-top: .5rem;
+    color: #939393;
+}
+
+.footer_content h1 {
+    color: #37ba8b;
+    padding: 1rem 0;
+}
+
+footer {
+    background: #000;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
