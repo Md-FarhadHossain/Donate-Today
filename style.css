@@ -56,7 +56,7 @@ body {
 }
 
 span {
-    color: #3de1f7;
+    color: #00ffa4;
 }
 
 /* Hero section end */
@@ -189,6 +189,14 @@ span {
     border: 1px solid #ffdb7a;
 }
 
+.donatePlan_content {
+    padding: 5rem 0;
+}
+
+.getUpdate_conetent {
+    padding-top: 5rem;
+}
+
 /* Our Donate Plan Section end */
 
 
@@ -294,6 +302,7 @@ span {
     width: 850px;
     margin: 4rem auto;
     border-radius: 1em;
+    border: 2px solid #39bc8d;
 }
 
 .get_email input {
